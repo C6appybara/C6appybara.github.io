@@ -1,5 +1,5 @@
 ---
-title: "My New Post"
+title: "AMSI Bypass. Using MinHook:"
 date: 2024-12-04 10:00:00 +0000
 categories: [blog, tutorial]
 tags: [jekyll, minimal mistakes]
