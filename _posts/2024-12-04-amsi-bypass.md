@@ -6,5 +6,6 @@ tags: [Malware, Windows, Bypass]
 toc: true
 ---
 
-## AMSI Bypass
+## Bypassing Amsi Using C & MinHook
 
+Powershell can be a very powerful tool and can be used as a `LOLBin` which can help attackers to stay stealthy when spread malware.
