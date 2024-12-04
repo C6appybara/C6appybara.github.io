@@ -12,4 +12,5 @@ Powershell can be a very powerful tool and can be used as a `LOLBin` which is us
 
 
 ## How Amsi Scans and Detects:
-
+**Amsi**, like other antimalware solutions, uses signature based detections to defend against malicious scripts. But Amsi does not use the same database that other installed antimalware vendors, it uses and maintains its own signature database.
+![Amsi Diagram](https://github.com/user-attachments/assets/adcb991b-a123-4c7c-8653-14f686f56890)
