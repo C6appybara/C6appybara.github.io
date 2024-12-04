@@ -10,7 +10,6 @@ toc: true
 
 Powershell can be a very powerful tool and can be used as a `LOLBin` which is used by attackers to stay stealthy on the victim's machine. The only downside with using powershell for stealthier tasks is bloody `AMSI (Anti Malware Scan Interface)`.
 
-`AMSI` is designed to use the most **common** malware scanning and protection techniques provided by `Windows Defender` and other antimalware services.
 
-## How It Works
+## How Amsi Scans and Detects:
 
