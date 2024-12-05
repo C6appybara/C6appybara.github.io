@@ -8,7 +8,7 @@ toc: true
 
 ## Bypassing Amsi Using C & MinHook
 
-Powershell can be a very powerful tool and can be used as a `LOLBin` which is used by attackers to stay stealthy on the victim's machine. The only downside with using powershell for stealthier tasks is bloody `AMSI (Anti Malware Scan Interface)`.
+Powershell can be a very powerful tool and can be used as a `LOLBin` which is used by attackers to stay stealthy on the victim's machine. The only downside with using powershell for malicious tasks is bloody `AMSI (Anti Malware Scan Interface)`.
 
 
 ## How Amsi Scans and Detects:
