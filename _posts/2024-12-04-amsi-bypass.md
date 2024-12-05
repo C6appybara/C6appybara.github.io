@@ -16,7 +16,7 @@ Powershell can be a very powerful tool and can be used as a `LOLBin` which is us
 
 Below is a diagram of `AMSI`'s architecture and how it operates. This along with Microsofts documentation on it's architecture [here](https://learn.microsoft.com/en-us/windows/win32/amsi/how-amsi-helps) can give you a more in depth understanding.
 ![Amsi Diagram](https://github.com/user-attachments/assets/adcb991b-a123-4c7c-8653-14f686f56890)
-As we can see in the diagram, AMSI WinApi's are acquired from `amsi.dll`. This .DLL is loading into the virtual memory of a target process to initiate a scan of a command.
+As we can see in the diagram, AMSI WinApi's are acquired from `amsi.dll`. This DLL is loaded into the virtual memory of a target process to initiate a scan of a command.
 
 Here are some WinApi's exported from `amsi.dll`:
-**[AmsiOpenSession](https://learn.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiopensession)** - This function will open a session with AMSI to enable scanning and analysis of content for potential threats.
+  **[AmsiOpenSession](https://learn.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiopensession)** - This function will open a session with AMSI to enable scanning and analysis of content for potential threats.
