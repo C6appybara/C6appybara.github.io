@@ -19,4 +19,4 @@ Below is a diagram of `AMSI`'s architecture and how it operates. This along with
 As we can see in the diagram, AMSI WinApi's are acquired from `amsi.dll`. This DLL is loaded into the virtual memory of a target process to initiate a scan of a command.
 
 Here are some WinApi's exported from `amsi.dll`:
-  **[AmsiOpenSession](https://learn.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiopensession)** - This function will open a session with AMSI to enable scanning and analysis of content for potential threats.
+- **[AmsiOpenSession](https://learn.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiopensession)** - This function will open a session with AMSI to enable scanning and analysis of content for potential threats.
