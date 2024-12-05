@@ -20,3 +20,5 @@ As we can see in the diagram, AMSI WinApi's are acquired from `amsi.dll`. This D
 
 Here are some WinApi's exported from `amsi.dll`:
 - **[AmsiOpenSession](https://learn.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiopensession)** - This function will open a session with AMSI to enable scanning and analysis of content for potential threats.
+- **[AmsiScanBuffer](https://learn.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiscanbuffer)** - This function will scan a given buffer for malicious code.
+- **[AmsiScanString](https://learn.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiscanstring)** - This function will scan a given string to find possible malicious signatures.
